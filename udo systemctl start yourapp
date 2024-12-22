@@ -1,0 +1,11 @@
+Unit yourappsudo.service could not be found.
+Unit systemctl.service could not be found.
+Unit enable.service could not be found.
+● yourapp.service - Corpo Talk App
+     Loaded: loaded (/etc/systemd/system/yourapp.service; enabled; vendor preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Sat 2024-12-21 22:40:44 UTC; 308ms ago
+    Process: 120758 ExecStart=/root/corpotalklol-app/venv/bin/hypercorn --bind 0.0.0.0:443 --certfile /etc/letsencrypt/live/api.corpotalk.lol/fullchain.pem --keyfile /etc/letsencrypt/live/api.corpotalk.lol/privkey.pem app:app [0;1;31m(code=exited, status=203/EXEC)[0m
+   Main PID: 120758 (code=exited, status=203/EXEC)
+
+Dec 21 22:40:44 ubuntu-s-1vcpu-1gb-fra1-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39myourapp.service: Main process exited, code=exited, status=203/EXEC[0m
+Dec 21 22:40:44 ubuntu-s-1vcpu-1gb-fra1-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185myourapp.service: Failed with result 'exit-code'.[0m

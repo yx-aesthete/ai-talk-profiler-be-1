@@ -1,0 +1,403 @@
+[
+  {
+    "korpo": "Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinieneś wziąć pod uwagę również inne aspekty.",
+    "human": "Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą.",
+    "context": [
+      "[Pracownik]: Przepraszam, ale co to jest? To moje oficjalne wypowiedzenie. Powiedzmy, że dostajemy nową pracę i zwijam się z tego cyrku. Czy formujesz, że moje kompetencje wykraczają już poza rolę zdefiniowaną przez naszą organizację? W związku z czym podjąłem decyzję o dalszym rozwoju poza strukturą firmy.",
+      "[Korpotłumacz]: Kto to jest? To jest wynajęty przez mnie korpo-tłumacz. Będzie tłumaczyć korpo-brednie na język ludzki tak, abyśmy mogli się lepiej zrozumieć.",
+      "[Pracodawca]: Poczekaj chwilę. Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinieneś wziąć pod uwagę również inne aspekty.",
+      "[Korpotłumacz]: Co on powiedział? Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą."
+    ]
+  },
+  {
+    "korpo": "Chcę tylko podkreślić, że pracownik powinien zwracać uwagę nie tylko na wynagrodzenie, ale również na benefity niefinansowe. A teraz próbuję ci mówić, że tak jak nie ocenia się książki po okładce, tak nie wypada też oceniać firmy po wypłacie.",
+    "human": "Powiedz mu, że teraz to może odejść, ale w taki sposób, żeby poczuł ekscytację na samą myśl o zbliżającej się podróży.",
+    "context": [
+      "[Pracodawca]: Poczekaj chwilę. Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinieneś wziąć pod uwagę również inne aspekty.",
+      "[Korpotłumacz]: Co on powiedział? Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą.",
+      "[Pracodawca]: Nic takiego nie powiedziałem. Chcę tylko podkreślić, że pracownik powinien zwracać uwagę nie tylko na wynagrodzenie, ale również na benefity niefinansowe. A teraz próbuję ci mówić, że tak jak nie ocenia się książki po okładce, tak nie wypada też oceniać firmy po wypłacie.",
+      "[Korpotłumacz]: Powiedz mu, że teraz to może odejść, ale w taki sposób, żeby poczuł ekscytację na samą myśl o zbliżającej się podróży."
+    ]
+  },
+  {
+    "korpo": "Niestety, na obecnym etapie nie możemy tego ujawnić, jednak zapewniam, że oferta nie odbiega od średniej rynkowej.",
+    "human": "Powiedział, że może płacą niewiele, ale kto płaci dobrze?",
+    "context": [
+      "[Pracownik]: Jakie wynagrodzenie przewidujecie dla tego stanowiska w grudniu?",
+      "[Pracodawca]: Niestety, na obecnym etapie nie możemy tego ujawnić, jednak zapewniam, że oferta nie odbiega od średniej rynkowej.",
+      "[Pracownik]: Czy możesz powtórzyć, co on powiedział?",
+      "[Korpotłumacz]: Powiedział, że może płacą niewiele, ale kto płaci dobrze?"
+    ]
+  },
+  {
+    "korpo": "Wracając do tematu wynagrodzenia, chcę podkreślić, że jest ono adekwatne do sprawowanej funkcji. Gwarantuję, że nasza firma oferuje konkurencyjne wynagrodzenie.",
+    "human": "Twoje wynagrodzenie będzie konkurować z twoimi rachunkami.",
+    "context": [
+      "[Pracodawca]: Przepraszam, a kim pan jest?",
+      "[Pracownik]: To jest wynajęty korporacyjny tłumacz.",
+      "[Pracodawca]: Ah, tak. Negocjator.",
+      "[Pracodawca]: Wracając do tematu wynagrodzenia, chcę podkreślić, że jest ono adekwatne do sprawowanej funkcji. Gwarantuję, że nasza firma oferuje konkurencyjne wynagrodzenie.",
+      "[Korpotłumacz]: Twoje wynagrodzenie będzie konkurować z twoimi rachunkami."
+    ]
+  },
+  {
+    "korpo": "Wynagrodzenie to wciąż nie wszystko. Oprócz tego trzeba zwracać uwagę na inne składniki pakietu, także na benefity finansowe.",
+    "human": "Mówi, że tak jak nie wolno oceniać książki po okładce, tak samo nie wolno oceniać firmy po wynagrodzeniu.",
+    "context": [
+      "[Pracownik]: Przepraszam, ale co to za absurd?",
+      "[Pracodawca]: Wynagrodzenie to wciąż nie wszystko. Oprócz tego trzeba zwracać uwagę na inne składniki pakietu, także na benefity finansowe.",
+      "[Korpotłumacz]: Mówi, że tak jak nie wolno oceniać książki po okładce, tak samo nie wolno oceniać firmy po wynagrodzeniu."
+    ]
+  },
+  {
+    "korpo": "W takim razie powiedz szanownemu panu drekruterowi, że zamiast marnować mój czas, lepiej od razu powiedziałby, że nie stać ich na mnie.",
+    "human": "Doceniam waszą chęć nawiązania ze mną współpracy, jednak w związku z brakiem transparentności w obszarze wynagrodzeń jestem zmuszony wycofać się z procesu rekrutacyjnego. Firma, która unika tematu wynagrodzeń, jest firmą, której powinni unikać kandydaci.",
+    "context": [
+      "[Pracownik]: W takim razie powiedz szanownemu panu drekruterowi, że zamiast marnować mój czas, lepiej od razu powiedziałby, że nie stać ich na mnie.",
+      "[Korpotłumacz]: Doceniam waszą chęć nawiązania ze mną współpracy, jednak w związku z brakiem transparentności w obszarze wynagrodzeń jestem zmuszony wycofać się z procesu rekrutacyjnego. Firma, która unika tematu wynagrodzeń, jest firmą, której powinni unikać kandydaci."
+    ]
+  },
+  {
+    "korpo": "Jak zapewne wiesz, niedawno odszedł od nas David i aby zapewnić ciągłość operacyjną w obszarze jego specjalizacji, chcielibyśmy, abyś na jakiś czas przejął jego obowiązki.",
+    "human": "Szukamy frajera, który będzie robił za 2",
+    "context": [
+      "[Pracodawca]: Jak zapewne wiesz, niedawno odszedł od nas David i aby zapewnić ciągłość operacyjną w obszarze jego specjalizacji, chcielibyśmy, abyś na jakiś czas przejął jego obowiązki.",
+      "[Pracownik]: Co on powiedział?",
+      "[Korpotłumacz]: Szukamy frajera, który będzie robił za 2?"
+    ]
+  },
+  {
+    "korpo": "Tak, jak już mówiłem, chodzi o wsparcie obszaru Davida wyłącznie do momentu, w którym znajdziemy za niego odpowiednie zastępstwo.",
+    "human": "Przygotuj się na permanentne zwiększenie zakresu twoich obowiązków.",
+    "context": [
+      "[Pracodawca]: Tak, jak już mówiłem, chodzi o wsparcie obszaru Davida wyłącznie do momentu, w którym znajdziemy za niego odpowiednie zastępstwo.",
+      "[Korpotłumacz]: Przygotuj się na permanentne zwiększenie zakresu twoich obowiązków."
+    ]
+  },
+  {
+    "korpo": "Zmiany wynagrodzenia nie są przewidywane. Ten awans operacyjny to przede wszystkim szansa na pokazanie swojego doświadczenia, które z kolei pozwoli na szybszy i bardziej dynamiczny rozwój w strukturach naszej firmy.",
+    "human": "Bardzo chętnie podejmiesz się nowych wyzwań, aby skutecznie wspierać firmę w tym trudnym dla niej okresie. Chciałbyś przy tej okazji poruszyć temat swojego wynagrodzenia, które powinno ulec zmianie, aby jak najlepiej odzwierciedlać nowy zakres twoich obowiązków.",
+    "context": [
+      "[Pracownik]: Ale ja... już wszystko rozumiem. Mogę robić za Davida, pod warunkiem, że dostanę też jego wypłatę.",
+      "[Korpotłumacz]: Bardzo chętnie podejmiesz się nowych wyzwań, aby skutecznie wspierać firmę w tym trudnym dla niej okresie. Chciałbyś przy tej okazji poruszyć temat swojego wynagrodzenia, które powinno ulec zmianie, aby jak najlepiej odzwierciedlać nowy zakres twoich obowiązków.",
+      "[Pracodawca]: Zmiany wynagrodzenia nie są przewidywane. Ten awans operacyjny to przede wszystkim szansa na pokazanie swojego doświadczenia, które z kolei pozwoli na szybszy i bardziej dynamiczny rozwój w strukturach naszej firmy."
+    ]
+  },
+  {
+    "korpo": "No dobrze, czym się pan obecnie zajmuje?",
+    "human": "Powiedz, że przygotowujesz raporty w Excelu.",
+    "context": [
+      "[Pracodawca]: No dobrze, czym się pan obecnie zajmuje?",
+      "[Korpotłumacz]: Powiedz, że przygotowujesz raporty w Excelu.",
+      "[Pracownik]: Przygotowuję strategiczne rekomendacje biznesowe, oparte na zaawansowanych technikach obróbki danych przy użyciu najnowocześniejszych narzędzi."
+    ]
+  },
+  {
+    "korpo": "A czy ma pan doświadczenie w zarządzaniu zespołem?",
+    "human": "Powiedz, że kiedyś pomogłeś szefowi przygotować grafik.",
+    "context": [
+      "[Pracodawca]: A czy ma pan doświadczenie w zarządzaniu zespołem?",
+      "[Korpotłumacz]: Powiedz, że kiedyś pomogłeś szefowi przygotować grafik.",
+      "[Pracownik]: Moje doświadczenie w tym obszarze skupiało się na wspieraniu planowania pracy, nakierowanego na optymalizację wydajności operacji zespołu."
+    ]
+  },
+  {
+    "korpo": "No dobrze, a co motywuje pana do pracy?",
+    "human": "Pieniądze.",
+    "context": [
+      "[Pracodawca]: No dobrze, a co motywuje pana do pracy?",
+      "[Korpotłumacz]: Pieniądze.",
+      "[Pracownik]: Najbardziej motywują mnie oferowane przez państwa firmę szerokie możliwości rozwoju, które są zbieżne z moimi długofalowymi celami zawodowymi."
+    ]
+  },
+  {
+    "korpo": "W takim razie, jakie są pańskie słabe strony?",
+    "human": "Spokojnie, on sam tego nie wie. Po prostu chce się dowartościować, bawiąc się w psychologa.",
+    "context": [
+      "[Pracodawca]: W takim razie, jakie są pańskie słabe strony?",
+      "[Pracownik]: Ty o co mu chodzi?",
+      "[Korpotłumacz]: Spokojnie, on sam tego nie wie. Po prostu chce się dowartościować, bawiąc się w psychologa.",
+      "[Pracownik]: Chyba tak."
+    ]
+  },
+  {
+    "korpo": "Dlaczego nie byłeś na pilnym spotkaniu, które ustawiłem w sobotę o godzinie 13?",
+    "human": "Moje podejście do aktywnego wypoczynku sprawia, że moja dostępność w weekendy jest bardzo ograniczona. Wszelkie pilne tematy polecam omawiać ze mną w standardowych godzinach mojej pracy.",
+    "context": [
+      "[Pracodawca]: Dlaczego nie byłeś na pilnym spotkaniu, które ustawiłem w sobotę o godzinie 13?",
+      "[Pracownik]: Tłumaczu, powiedz mu, że mnie nie było, bo miałem trening. Tylko powiedz to profesjonalnie.",
+      "[Korpotłumacz]: Ok. Odpowiedź brzmi: Moje podejście do aktywnego wypoczynku sprawia, że moja dostępność w weekendy jest bardzo ograniczona. Wszelkie pilne tematy polecam omawiać ze mną w standardowych godzinach mojej pracy."
+    ]
+  },
+  {
+    "korpo": "Rozumiem chęć zachowania balansu, jednak weź pod uwagę, że nasza firma nie promuje minimalistycznego podejścia. Jeżeli naprawdę chcesz się tutaj rozwijać, to musisz wykazać nieco więcej zaangażowania.",
+    "human": "Powiedział, że poszukujemy pracowników, którzy dużo pracują i mało kosztują.",
+    "context": [
+      "[Pracodawca]: Niech będzie. Słuchaj. Rozumiem chęć zachowania balansu, jednak weź pod uwagę, że nasza firma nie promuje minimalistycznego podejścia. Jeżeli naprawdę chcesz się tutaj rozwijać, to musisz wykazać nieco więcej zaangażowania.",
+      "[Korpotłumacz]: Powiedział, że poszukujemy pracowników, którzy dużo pracują i mało kosztują."
+    ]
+  },
+  {
+    "korpo": "Pracownik aktualnie korzysta z urlopu, co znacząco ogranicza możliwość jego ekspozycji na tematy zawodowe. Czy ma pan coś do przekazania?",
+    "human": "Pracownik jest teraz na urlopie i nie chce o pracy rozmawiać. Chcesz coś przekazać?",
+    "context": [
+      "[Pracodawca]: No, w końcu... Ah, oto i on. Wciąż do mnie dzwoni. Wreszcie odbierz ten telefon.",
+      "[Korpotłumacz]: Dzień dobry, w czym mogę pomóc?",
+      "[Pracodawca]: Przepraszam, kto mówi?",
+      "[Korpotłumacz]: Jestem tłumaczem korporacyjnym. Pracownik, do którego chce pan się dodzwonić, nie może w tej chwili rozmawiać.",
+      "[Pracodawca]: Dlaczego mój pracownik nie może teraz rozmawiać?",
+      "[Korpotłumacz]: Pracownik aktualnie korzysta z urlopu, co znacząco ogranicza możliwość jego ekspozycji na tematy zawodowe. Czy ma pan coś do przekazania?"
+    ]
+  },
+  {
+    "korpo": "Tak, proszę przekazać, że musimy przerwać jego urlop, ponieważ firma otrzymała bardzo ważne zamówienie, które wymaga jego pilnej obecności w naszym biurze.",
+    "human": "Powiedział, że jest problem z planowaniem pracy i chciałby, abyś przerwał swój urlop.",
+    "context": [
+      "[Pracodawca]: Tak, proszę przekazać, że musimy przerwać jego urlop, ponieważ firma otrzymała bardzo ważne zamówienie, które wymaga jego pilnej obecności w naszym biurze.",
+      "[Pracownik]: Co on tam powiedział?",
+      "[Korpotłumacz]: Powiedział, że jest problem z planowaniem pracy i chciałby, abyś przerwał swój urlop."
+    ]
+  },
+  {
+    "korpo": "Jakie ograniczenia? Ta argumentacja nie ma żadnej racji bytu, ponieważ firma zwróci mu wszelkie koszty poniesione w wyniku przerwania przez niego urlopu. Dodam również, że mój telefon nie jest prośbą. Jest to oficjalne polecenie służbowe.",
+    "human": "Powiedział, że jeśli nie wrócisz, będziesz miał problemy.",
+    "context": [
+      "[Korpotłumacz]: Niestety, na obecnym etapie urlopu pracownik nie będzie w stanie go przerwać z uwagi na ograniczenia logistyczne i finansowe.",
+      "[Pracodawca]: Jakie ograniczenia? Ta argumentacja nie ma żadnej racji bytu, ponieważ firma zwróci mu wszelkie koszty poniesione w wyniku przerwania przez niego urlopu. Dodam również, że mój telefon nie jest prośbą. Jest to oficjalne polecenie służbowe.",
+      "[Korpotłumacz]: Powiedział, że jeśli nie wrócisz, będziesz miał problemy."
+    ]
+  },
+  {
+    "korpo": "Polecenie służbowe nakazujące przerwanie urlopu jest ważne tylko wtedy, gdy pracownik zostanie o nim poinformowany w sposób nie budzący żadnych wątpliwości. Ponieważ ten warunek nie jest spełniony w obecnej sytuacji, ten telefon musimy uznać za nieważny.",
+    "human": "Jeśli nie powiedział ci tego wprost, to nie musisz przerywać urlopu.",
+    "context": [
+      "[Pracownik]: Nie ma opcji, żebym przerwał urlop w połowie.",
+      "[Korpotłumacz]: Polecenie służbowe nakazujące przerwanie urlopu jest ważne tylko wtedy, gdy pracownik zostanie o nim poinformowany w sposób nie budzący żadnych wątpliwości. Ponieważ ten warunek nie jest spełniony w obecnej sytuacji, ten telefon musimy uznać za nieważny."
+    ]
+  },
+  {
+    "korpo": "To oznacza również, że dalsze próby kontaktu zostaną potraktowane jako nękanie i zgłoszone do odpowiednich służb w dziale HR. Życzę udanego dnia.",
+    "human": "Jeśli będzie cię dalej nękać, zgłosimy to do HR. Miłego dnia!",
+    "context": [
+      "[Pracownik]: Ale przecież...",
+      "[Korpotłumacz]: To oznacza również, że dalsze próby kontaktu zostaną potraktowane jako nękanie i zgłoszone do odpowiednich służb w dziale HR. Życzę udanego dnia."
+    ]
+  },
+  {
+    "korpo": "Czy naprawdę jesteś aż tak głupi? Jak mogłeś wysłać klientowi raport z niepoprawnymi danymi? Zrobiłeś z nas wszystkich idiotów. Moje gratulacje.",
+    "human": "Rozumiem emocje, ale chciałbym przypomnieć, że jesteśmy w pracy. Będę wdzięczny, jeśli dalsza część naszej konwersacji zostanie utrzymana w profesjonalnym tonie.",
+    "context": [
+      "[Pracodawca]: Czy naprawdę jesteś aż tak głupi? Jak mogłeś wysłać klientowi raport z niepoprawnymi danymi? Zrobiłeś z nas wszystkich idiotów. Moje gratulacje.",
+      "[Pracownik]: Tu masz. Powiedz mu, żeby zwracał lepiej uwagę na swój ton, bo nie jesteśmy na podwórku, a ja nie jestem jego kolegą.",
+      "[Korpotłumacz]: Rozumiem emocje, ale chciałbym przypomnieć, że jesteśmy w pracy. Będę wdzięczny, jeśli dalsza część naszej konwersacji zostanie utrzymana w profesjonalnym tonie."
+    ]
+  },
+  {
+    "korpo": "To jest wynajęty przez nas korpotłumacz. Będzie tłumaczyć korporacyjne brednie na język ludzki, abyś mógł dzisiaj wyjść z biura z prostą przegrodą nosową.",
+    "human": "Nie wiem, czy to profesjonalne, ale chciałbym zaznaczyć, że w przypadku raportu w pełni wywiązałem się ze swojej części obowiązków. Sugeruję, abyśmy zamiast szukać winnych, zaczęli szukać rozwiązań, aby uniknąć podobnych komplikacji w przyszłości.",
+    "context": [
+      "[Pracodawca]: Dobrze, wiesz co? Ratku, kto to jest?",
+      "[Pracownik]: To jest wynajęty przez nas korpotłumacz. Będzie tłumaczyć korporacyjne brednie na język ludzki, abyś mógł dzisiaj wyjść z biura z prostą przegrodą nosową.",
+      "[Pracodawca]: Prostą przegrodą? Tu masz. Powiedz mu, że to on zepsuł ten raport, a później sam kazał mi go wysłać.",
+      "[Korpotłumacz]: Nie wiem, czy to profesjonalne, ale chciałbym zaznaczyć, że w przypadku raportu w pełni wywiązałem się ze swojej części obowiązków. Sugeruję, abyśmy zamiast szukać winnych, zaczęli szukać rozwiązań, aby uniknąć podobnych komplikacji w przyszłości."
+    ]
+  },
+  {
+    "korpo": "Ratku! Być może popełniłem błąd w raporcie, ale to ty ostatecznie go wysłałeś. Czy to nie oznacza, że wziąłeś za niego odpowiedzialność?",
+    "human": "Co on powiedział? Co z tego, że zrobiłem błąd, skoro całą winę mogę zwalić na ciebie. Nie o to chodzi. Dbanie o jakość korespondencji to obowiązek każdego pracownika. Mój błąd nie usprawiedliwia twojego. Chyba jesteś w stanie to zrozumieć, prawda?",
+    "context": [
+      "[Pracodawca]: Prostą przegrodą? Tu masz. Powiedz mu, że to on zepsuł ten raport, a później sam kazał mi go wysłać.",
+      "[Korpotłumacz]: Nie wiem, czy to profesjonalne, ale chciałbym zaznaczyć, że w przypadku raportu w pełni wywiązałem się ze swojej części obowiązków. Sugeruję, abyśmy zamiast szukać winnych, zaczęli szukać rozwiązań, aby uniknąć podobnych komplikacji w przyszłości.",
+      "[Pracownik]: Ratku! Być może popełniłem błąd w raporcie, ale to ty ostatecznie go wysłałeś. Czy to nie oznacza, że wziąłeś za niego odpowiedzialność?",
+      "[Korpotłumacz]: Co on powiedział? Co z tego, że zrobiłem błąd, skoro całą winę mogę zwalić na ciebie. Nie o to chodzi. Dbanie o jakość korespondencji to obowiązek każdego pracownika. Mój błąd nie usprawiedliwia twojego. Chyba jesteś w stanie to zrozumieć, prawda?"
+    ]
+  },
+  {
+    "korpo": "Nie, no tu masz. Powiedz mu coś, bo zaraz go zabiję.",
+    "human": "Szanuję wysiłek, który włożyłeś w zdobycie swojego stanowiska. Jednak pamiętaj, że nie upoważnia cię ono do obraźliwych zachowań. Być może nie jesteś tego świadom, ale to nie monitoring, a szacunek w miejscu pracy jest warunkiem skutecznego zarządzania zespołem.",
+    "context": [
+      "[Pracownik]: Ratku! Być może popełniłem błąd w raporcie, ale to ty ostatecznie go wysłałeś. Czy to nie oznacza, że wziąłeś za niego odpowiedzialność?",
+      "[Korpotłumacz]: Co on powiedział? Co z tego, że zrobiłem błąd, skoro całą winę mogę zwalić na ciebie. Nie o to chodzi. Dbanie o jakość korespondencji to obowiązek każdego pracownika. Mój błąd nie usprawiedliwia twojego. Chyba jesteś w stanie to zrozumieć, prawda?",
+      "[Pracodawca]: Nie, no tu masz. Powiedz mu coś, bo zaraz go zabiję.",
+      "[Korpotłumacz]: Szanuję wysiłek, który włożyłeś w zdobycie swojego stanowiska. Jednak pamiętaj, że nie upoważnia cię ono do obraźliwych zachowań. Być może nie jesteś tego świadom, ale to nie monitoring, a szacunek w miejscu pracy jest warunkiem skutecznego zarządzania zespołem."
+    ]
+  },
+  {
+    "korpo": "Kondycja finansowa firmy nie daje nam obecnie żadnego pola manewru w kwestii podwyżek, dlatego jeżeli jest to dla ciebie czynnik kluczowy, to obawiam się, że nie będziemy w stanie zatrzymać cię w naszych strukturach.",
+    "human": "Co on powiedział? Że jest idiotą, który chętnie wyda kilkadziesiąt tysięcy na rekrutację, tylko żeby oszczędzić na Tobie parę stówek.",
+    "context": [
+      "[Pracownik]: Przecież to jest zwykłym muszeniem. Może inaczej. Tłumaczu, powiedz mu, że jeżeli nie dostanę podwyżki do końca tego kwartału, to przejdę do konkurencji. Tylko wiesz, tym razem niech to nie brzmi jak szantaż. Długo trwające zamrożenie wynagrodzenia sugeruje, że powinienem rozważać karierę poza naszą organizacją. Co możemy wspólnie zrobić, aby zmienić ten stan rzeczy do końca tego kwartału?",
+      "[Pracodawca]: Przepraszam, ale kto to jest?",
+      "[Pracownik]: To jest wynajęty za mnie korpotłumacz. Będzie tłumaczyć korporacyjne brednie na język ludzki, abyśmy mogli się lepiej zrozumieć.",
+      "[Pracodawca]: Ach tak. Wróćmy do twojego pytania. Kondycja finansowa firmy nie daje nam obecnie żadnego pola manewru w kwestii podwyżek, dlatego jeżeli jest to dla ciebie czynnik kluczowy, to obawiam się, że nie będziemy w stanie zatrzymać cię w naszych strukturach.",
+      "[Korpotłumacz]: Co on powiedział? Że jest idiotą, który chętnie wyda kilkadziesiąt tysięcy na rekrutację, tylko żeby oszczędzić na Tobie parę stówek."
+    ]
+  },
+  {
+    "korpo": "Ale co pan chce przez to powiedzieć?",
+    "human": "Chce powiedzieć, że jeśli firmy nie stać na moją podwyżkę, to tym bardziej nie stać jej na moje odejście.",
+    "context": [
+      "[Pracownik]: Przecież to jest zwykłym muszeniem. Może inaczej. Tłumaczu, powiedz mu, że jeżeli nie dostanę podwyżki do końca tego kwartału, to przejdę do konkurencji. Tylko wiesz, tym razem niech to nie brzmi jak szantaż. Długo trwające zamrożenie wynagrodzenia sugeruje, że powinienem rozważać karierę poza naszą organizacją. Co możemy wspólnie zrobić, aby zmienić ten stan rzeczy do końca tego kwartału?",
+      "[Pracodawca]: Przepraszam, ale kto to jest?",
+      "[Pracownik]: To jest wynajęty za mnie korpotłumacz. Będzie tłumaczyć korporacyjne brednie na język ludzki, abyśmy mogli się lepiej zrozumieć.",
+      "[Pracodawca]: Ach tak. Wróćmy do twojego pytania. Kondycja finansowa firmy nie daje nam obecnie żadnego pola manewru w kwestii podwyżek, dlatego jeżeli jest to dla ciebie czynnik kluczowy, to obawiam się, że nie będziemy w stanie zatrzymać cię w naszych strukturach.",
+      "[Korpotłumacz]: Co on powiedział? Że jest idiotą, który chętnie wyda kilkadziesiąt tysięcy na rekrutację, tylko żeby oszczędzić na Tobie parę stówek.",
+      "[Pracodawca]: Zaraz, zaraz. O czym pan w ogóle mówi? Tłumaczu, wyjaśnij proszę.",
+      "[Korpotłumacz]: Koszty związane z procesem rekrutacji, zatrudnieniem i wdrożeniem nowego pracownika, są wielokrotnie wyższe niż koszt podwyżki dla pracowników obecnych. Dlatego osoby, które nie uwzględniają tego w swoich kalkulacjach, to osoby, które działają bezpośrednio na szkodę firmy.",
+      "[Pracodawca]: Ale co pan chce przez to powiedzieć?",
+      "[Korpotłumacz]: Chce powiedzieć, że jeśli firmy nie stać na moją podwyżkę, to tym bardziej nie stać jej na moje odejście."
+    ]
+  },
+  {
+    "korpo": "Oczywiście bardzo doceniamy twoje zaangażowanie, jednak na chwilę obecną nie jestem w stanie ci podwyżki zaproponować. Czy moglibyśmy wrócić do tej rozmowy za kilka miesięcy, kiedy firma będzie w nieco lepszej kondycji finansowej?",
+    "human": "Nie damy ci żadnej podwyżki, ale byłoby fajnie, gdybyś tak przez kilka miesięcy nie szukał nowej pracy, żebyśmy cię dalej mogli wykorzystywać.",
+    "context": [
+      "[Pracownik]: Ok. Mam świetne wyniki, ale od lat nie widziałem podwyżki. Jak tak dalej pójdzie, będę musiał zmienić firmę, żeby nie zdechnąć z głodu. Stale rosnące koszty sprawiły, że nie stać mnie już na pracę w naszym przedsiębiorstwie. Czy mając na uwadze moje ponadprzeciętne wyniki, moglibyśmy porozmawiać o podwyżce wynagrodzenia, która pozwoli mi na dalszy stabilny rozwój w strukturach naszej firmy?",
+      "[Pracodawca]: Oczywiście bardzo doceniamy twoje zaangażowanie, jednak na chwilę obecną nie jestem w stanie ci podwyżki zaproponować. Czy moglibyśmy wrócić do tej rozmowy za kilka miesięcy, kiedy firma będzie w nieco lepszej kondycji finansowej?",
+      "[Korpotłumacz]: Nie damy ci żadnej podwyżki, ale byłoby fajnie, gdybyś tak przez kilka miesięcy nie szukał nowej pracy, żebyśmy cię dalej mogli wykorzystywać."
+    ]
+  },
+  {
+    "korpo": "Nasza firma skupia się obecnie na optymalizacji kosztów i jak tylko się z tym uporamy, to będziemy mogli wtedy wrócić do tematów płacowych.",
+    "human": "Szykujemy masowe zwolnienia i właśnie znalazłeś się na liście osób do zwolnienia.",
+    "context": [
+      "[Pracodawca]: Zaraz, zaraz. Co to za kuriozalna sytuacja? Nasza firma skupia się obecnie na optymalizacji kosztów i jak tylko się z tym uporamy, to będziemy mogli wtedy wrócić do tematów płacowych.",
+      "[Korpotłumacz]: Szykujemy masowe zwolnienia i właśnie znalazłeś się na liście osób do zwolnienia.",
+      "[Pracownik]: Kurwa mać.",
+      "[Pracodawca]: No proszę."
+    ]
+  },
+  {
+    "korpo": "Dlatego firma z przyjemnością może zaoferować ci 150 zł podwyżki.",
+    "human": "Powiedz mu, że to jest absurd. Ale zrób to profesjonalnie.",
+    "context": [
+      "[Pracodawca]: Dlatego firma z przyjemnością może zaoferować ci 150 zł podwyżki.",
+      "[Korpotłumacz]: Powiedz mu, że to jest absurd. Ale zrób to profesjonalnie.",
+      "[Pracownik]: Doceniam propozycję zmiany mojego wynagrodzenia, jednak uważam, że jest ona niewystarczająca. Dlatego bardzo zależy mi na tym, abyśmy raz jeszcze wspólnie pochylili się nad tematem mojej stawki."
+    ]
+  },
+  {
+    "korpo": "Z uwagi na trudny okres, 150 zł to wszystko, co mogę ci na chwilę obecną zaproponować. Zapewniam cię jednak, że do tematu kolejnej podwyżki będziemy mogli wrócić już za kilka miesięcy.",
+    "human": "Powiedział, że dalej chcą mnie zatrudniać za niskie wynagrodzenie.",
+    "context": [
+      "[Pracodawca]: No tak, rozumiem. Wracając do tematu wynagrodzenia. Z uwagi na trudny okres, 150 zł to wszystko, co mogę ci na chwilę obecną zaproponować. Zapewniam cię jednak, że do tematu kolejnej podwyżki będziemy mogli wrócić już za kilka miesięcy.",
+      "[Korpotłumacz]: Co on powiedział?",
+      "[Pracownik]: Powiedział, że dalej chcą mnie zatrudniać za niskie wynagrodzenie."
+    ]
+  },
+  {
+    "korpo": "Po prostu w tym trudnym dla nas okresie liczymy na lojalność i wyrozumiałość naszych pracowników.",
+    "human": "Teraz powiedział, że oczekują lojalności i wyrozumiałości od ludzi, którzy mogą stracić pracę, kiedy tylko przyjdzie potrzeba zaciskania pasa.",
+    "context": [
+      "[Pracodawca]: Zaraz, zaraz. W firmie nie chcemy nikogo wykorzystywać. Po prostu w tym trudnym dla nas okresie liczymy na lojalność i wyrozumiałość naszych pracowników.",
+      "[Korpotłumacz]: Teraz powiedział, że oczekują lojalności i wyrozumiałości od ludzi, którzy mogą stracić pracę, kiedy tylko przyjdzie potrzeba zaciskania pasa."
+    ]
+  },
+  {
+    "korpo": "Wiesz dobrze, że jesteśmy tu jak rodzina.",
+    "human": "Czyli rodzina, ale patologiczna?",
+    "context": [
+      "[Pracodawca]: Co to za absurd? Nigdy do czegoś takiego nie dojdzie. Wiesz dobrze, że jesteśmy tu jak rodzina.",
+      "[Korpotłumacz]: Czyli rodzina, ale patologiczna?"
+    ]
+  },
+  {
+    "korpo": "Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinno się brać pod uwagę również inne aspekty.",
+    "human": "Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą.",
+    "context": [
+      "[Pracownik]: Przepraszam, ale co to jest? To moje oficjalne wypowiedzenie. Powiedzmy, że dostajemy nową pracę i zwijam się z tego cyrku. Czy rozumiesz, że moje kompetencje wykraczają już poza rolę zdefiniowaną przez naszą organizację? W związku z tym podjąłem decyzję o dalszym rozwoju poza strukturą firmy.",
+      "[Pracodawca]: Kto to jest?",
+      "[Pracownik]: To jest wynajęty przeze mnie korpo-tłumacz. Będzie tłumaczyć korporacyjny język na język ludzki, abyśmy mogli się lepiej zrozumieć.",
+      "[Pracodawca]: Poczekaj chwilę. Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinno się brać pod uwagę również inne aspekty.",
+      "[Korpotłumacz]: Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą."
+    ]
+  },
+  {
+    "korpo": "Chcę tylko podkreślić, że pracownik powinien zwracać uwagę nie tylko na wynagrodzenie, ale również na benefity niefinansowe. A teraz próbuję ci mówić, że tak jak nie ocenia się książki po okładce, tak nie wypada też oceniać firmy po wypłacie.",
+    "human": "Powiedz mu, że teraz to może odejść, ale w taki sposób, żeby poczuł ekscytację na samą myśl o zbliżającej się podróży.",
+    "context": [
+      "[Pracownik]: Przepraszam, ale co to jest? To moje oficjalne wypowiedzenie. Powiedzmy, że dostajemy nową pracę i zwijam się z tego cyrku. Czy rozumiesz, że moje kompetencje wykraczają już poza rolę zdefiniowaną przez naszą organizację? W związku z tym podjąłem decyzję o dalszym rozwoju poza strukturą firmy.",
+      "[Pracodawca]: Kto to jest?",
+      "[Pracownik]: To jest wynajęty przeze mnie korpo-tłumacz. Będzie tłumaczyć korporacyjny język na język ludzki, abyśmy mogli się lepiej zrozumieć.",
+      "[Pracodawca]: Poczekaj chwilę. Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinno się brać pod uwagę również inne aspekty.",
+      "[Korpotłumacz]: Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą.",
+      "[Pracodawca]: Nic takiego nie powiedziałem. Chcę tylko podkreślić, że pracownik powinien zwracać uwagę nie tylko na wynagrodzenie, ale również na benefity niefinansowe. A teraz próbuję ci mówić, że tak jak nie ocenia się książki po okładce, tak nie wypada też oceniać firmy po wypłacie.",
+      "[Korpotłumacz]: Powiedz mu, że teraz to może odejść, ale w taki sposób, żeby poczuł ekscytację na samą myśl o zbliżającej się podróży."
+    ]
+  },
+  {
+    "korpo": "Rozumiem twoją argumentację, ale nie może być ona czynnikiem motywującym podwyżkę, ponieważ wynagrodzenia to kwestia bardzo indywidualna objęta klauzulą poufności.",
+    "human": "Że firma nie lubi jak pracownicy rozmawiają o pieniądzach.",
+    "context": [
+      "[Pracownik]: Czy to przypadkiem nie miała być rozmowa w cztery oczy?",
+      "[Pracodawca]: No tak. To w takim razie co on tutaj robi?",
+      "[Pracownik]: A nie, nie, nie. Proszę się nie przejmować. To tylko wynajęty przeze mnie korpotłumacz. Będzie tłumaczyć korporacyjny język na język ludzki, tak?",
+      "[Pracodawca]: Niech będzie. To co chciałeś ze mną omówić?",
+      "[Pracownik]: Ok. Tłumacz. Do wydziału środków pakujących ze spółki, że zarabiamy mniej niż oni, pomimo tego, że pracuję tutaj najdłużej. Chcę jak najszybszego wyrównania mojej stawki.",
+      "[Korpotłumacz]: Wnikliwa analiza jego wynagrodzenia sugeruje, że znajduje się ono znacznie poniżej średniej rynkowej. Czy możemy porozmawiać o zmianach, które sprawią, że moja stawka skutecznie odzwierciedli szeroki zakres moich obowiązków?",
+      "[Pracodawca]: Rozumiem twoją argumentację, ale nie może być ona czynnikiem motywującym podwyżkę, ponieważ wynagrodzenia to kwestia bardzo indywidualna objęta klauzulą poufności.",
+      "[Korpotłumacz]: Co on powiedział?",
+      "[Pracownik]: Że firma nie lubi jak pracownicy rozmawiają o pieniądzach."
+    ]
+  },
+  {
+    "korpo": "Nie w tym rzecz, po prostu wynagrodzenie ustalamy jeszcze na etapie procesu rekrutacyjnego i jest ono negocjowalne do momentu podpisania umowy.",
+    "human": "Teraz mówi, że nie byli w stanie znaleźć osoby, która zgodziłaby się pracować za twoją stawkę.",
+    "context": [
+      "[Pracownik]: Czy to przypadkiem nie miała być rozmowa w cztery oczy?",
+      "[Pracodawca]: No tak. To w takim razie co on tutaj robi?",
+      "[Pracownik]: A nie, nie, nie. Proszę się nie przejmować. To tylko wynajęty przeze mnie korpotłumacz. Będzie tłumaczyć korporacyjny język na język ludzki, tak?",
+      "[Pracodawca]: Niech będzie. To co chciałeś ze mną omówić?",
+      "[Pracownik]: Ok. Tłumacz. Do wydziału środków pakujących ze spółki, że zarabiamy mniej niż oni, pomimo tego, że pracuję tutaj najdłużej. Chcę jak najszybszego wyrównania mojej stawki.",
+      "[Korpotłumacz]: Wnikliwa analiza jego wynagrodzenia sugeruje, że znajduje się ono znacznie poniżej średniej rynkowej. Czy możemy porozmawiać o zmianach, które sprawią, że moja stawka skutecznie odzwierciedli szeroki zakres moich obowiązków?",
+      "[Pracodawca]: Rozumiem twoją argumentację, ale nie może być ona czynnikiem motywującym podwyżkę, ponieważ wynagrodzenia to kwestia bardzo indywidualna objęta klauzulą poufności.",
+      "[Korpotłumacz]: Co on powiedział?",
+      "[Pracownik]: Że firma nie lubi jak pracownicy rozmawiają o pieniądzach.",
+      "[Pracodawca]: Nie w tym rzecz, po prostu wynagrodzenie ustalamy jeszcze na etapie procesu rekrutacyjnego i jest ono negocjowalne do momentu podpisania umowy.",
+      "[Korpotłumacz]: Teraz mówi, że nie byli w stanie znaleźć osoby, która zgodziłaby się pracować za twoją stawkę.",
+      "[Pracownik]: Dobrawdy?"
+    ]
+  },
+  {
+    "korpo": "Słuchaj, czy możesz przygotować list szczegółowo opisujący pełen zakres twoich obowiązków? Planujemy w najbliższym czasie powiększyć zespół i taka dokumentacja bardzo by nam pomogła.",
+    "human": "Chcą cię zastąpić kimś z zewnątrz, ale nie mają zielonego pojęcia czym się zajmujesz.",
+    "context": [
+      "[Pracodawca]: Słuchaj, czy możesz przygotować list szczegółowo opisujący pełen zakres twoich obowiązków? Planujemy w najbliższym czasie powiększyć zespół i taka dokumentacja bardzo by nam pomogła.",
+      "[Korpotłumacz]: Chcą cię zastąpić kimś z zewnątrz, ale nie mają zielonego pojęcia czym się zajmujesz."
+    ]
+  },
+  {
+    "korpo": "Nie planujemy żadnych zwolnień. Cała ta akcja jest częścią strategii managementu, która ma na celu zredukowanie kosztów operacyjnych. Zdecydowanie wyeliminujesz, ale wiesz, nie tylko ty.",
+    "human": "Ale co to za brednie? Zmiany w organizacji to normalna rzecz, która nie zawsze oznacza redukcję etatów. Firmie bardzo zależy na tym, aby pracownicy czuli się tutaj bezpiecznie. Naszej firmie bardzo zależy na tym, aby ludzie w niej pracujący wierzyli w stabilność swojego zatrudnienia. Bo nieświadomy pracownik to produkt w doborze, do prawdy.",
+    "context": [
+      "[Pracownik]: Niech będzie. Odpowiadając na wcześniejszy komentarz.",
+      "[Pracodawca]: Nie planujemy żadnych zwolnień. Cała ta akcja jest częścią strategii managementu, która ma na celu zredukowanie kosztów operacyjnych. Zdecydowanie wyeliminujesz, ale wiesz, nie tylko ty.",
+      "[Korpotłumacz]: Ale co to za brednie? Zmiany w organizacji to normalna rzecz, która nie zawsze oznacza redukcję etatów. Firmie bardzo zależy na tym, aby pracownicy czuli się tutaj bezpiecznie. Naszej firmie bardzo zależy na tym, aby ludzie w niej pracujący wierzyli w stabilność swojego zatrudnienia. Bo nieświadomy pracownik to produkt w doborze, do prawdy."
+    ]
+  },
+  {
+    "korpo": "Damy ci podwyżkę o tysiąc 200 złotych, jeśli zgodzisz się wycofać swoje wypowiedzenie.",
+    "human": "Powiedz mu, że jeśli wycofa swoje wypowiedzenie tydzień przed końcem, to może się pocałować w dupę.",
+    "context": [
+      "[Pracodawca]: Damy ci podwyżkę o tysiąc 200 złotych, jeśli zgodzisz się wycofać swoje wypowiedzenie.",
+      "[Korpotłumacz]: Co on powiedział?",
+      "[Pracodawca]: Nie udało nam się znaleźć nikogo na twoje miejsce, dlatego jesteśmy zmuszeni przyjąć twoje niedorzeczne warunki.",
+      "[Korpotłumacz]: Przepraszam, ale kto to jest?",
+      "[Pracodawca]: To jest wynajęty korpotłumacz.",
+      "[Korpotłumacz]: Kto?",
+      "[Pracodawca]: Korpotłumacz. Będzie tłumaczył korporacyjny język na język zrozumiały dla wszystkich, abyśmy mogli się lepiej zrozumieć.",
+      "[Korpotłumacz]: Powiedz mu, że jeśli wycofa swoje wypowiedzenie tydzień przed końcem, to może się pocałować w dupę."
+    ]
+  },
+  {
+    "korpo": "Rozumiem twoją sytuację, ale chyba zapominasz, ile nam tak naprawdę zawdzięczasz. Twoją wiedzę, twoje doświadczenie - wszystko zdobyłeś w naszej firmie.",
+    "human": "Ten nie jest wdzięczny.",
+    "context": [
+      "[Pracownik]: Rozważałem kontynuację współpracy z wami, jednak ze względu na moje zobowiązania wobec przyszłego pracodawcy, jestem zmuszony ją odrzucić.",
+      "[Pracodawca]: Rozumiem twoją sytuację, ale chyba zapominasz, ile nam tak naprawdę zawdzięczasz. Twoją wiedzę, twoje doświadczenie - wszystko zdobyłeś w naszej firmie.",
+      "[Korpotłumacz]: Co on powiedział?",
+      "[Pracodawca]: Wszystko, co umiesz, wszystko, co wiesz, zawdzięczasz nam.",
+      "[Korpotłumacz]: Ten nie jest wdzięczny."
+    ]
+  }
+]
