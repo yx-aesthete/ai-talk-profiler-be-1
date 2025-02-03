@@ -10,3 +10,4 @@ pathlib==1.0.1
 python-dotenv==1.0.0
 orjson==3.9.0
 werkzeug==2.3.7
+langfuse>=2.0.0

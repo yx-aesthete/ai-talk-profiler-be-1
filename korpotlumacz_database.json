@@ -1,7 +1,7 @@
 [
   {
     "korpo": "Jesteś pewien, że chcesz podjąć tak duże ryzyko w tak ciężkim dla całego rynku okresie? Rozumiem, że długo trwały brak zmian w wynagrodzeniu może być irytujący, ale podejmując tak ważne decyzje powinieneś wziąć pod uwagę również inne aspekty.",
-    "human": "Obawia się, że jeśli teraz odejdziesz, to drugiego takiego pracownika już nie znajdą.",
+    "human": "Obawia się, że jeśli teraz odejdziesz, to drugiego takiego frajera już nie znajdą.",
     "context": [
       "[Pracownik]: Przepraszam, ale co to jest? To moje oficjalne wypowiedzenie. Powiedzmy, że dostajemy nową pracę i zwijam się z tego cyrku. Czy formujesz, że moje kompetencje wykraczają już poza rolę zdefiniowaną przez naszą organizację? W związku z czym podjąłem decyzję o dalszym rozwoju poza strukturą firmy.",
       "[Korpotłumacz]: Kto to jest? To jest wynajęty przez mnie korpo-tłumacz. Będzie tłumaczyć korpo-brednie na język ludzki tak, abyśmy mogli się lepiej zrozumieć.",
@@ -50,8 +50,8 @@
     ]
   },
   {
-    "korpo": "W takim razie powiedz szanownemu panu drekruterowi, że zamiast marnować mój czas, lepiej od razu powiedziałby, że nie stać ich na mnie.",
-    "human": "Doceniam waszą chęć nawiązania ze mną współpracy, jednak w związku z brakiem transparentności w obszarze wynagrodzeń jestem zmuszony wycofać się z procesu rekrutacyjnego. Firma, która unika tematu wynagrodzeń, jest firmą, której powinni unikać kandydaci.",
+    "korpo": "Doceniam waszą chęć nawiązania ze mną współpracy, jednak w związku z brakiem transparentności w obszarze wynagrodzeń jestem zmuszony wycofać się z procesu rekrutacyjnego. Firma, która unika tematu wynagrodzeń, jest firmą, której powinni unikać kandydaci.",
+    "human": "W takim razie powiedz szanownemu panu drekruterowi, że zamiast marnować mój czas, lepiej od razu powiedziałby, że nie stać ich na mnie.",
     "context": [
       "[Pracownik]: W takim razie powiedz szanownemu panu drekruterowi, że zamiast marnować mój czas, lepiej od razu powiedziałby, że nie stać ich na mnie.",
       "[Korpotłumacz]: Doceniam waszą chęć nawiązania ze mną współpracy, jednak w związku z brakiem transparentności w obszarze wynagrodzeń jestem zmuszony wycofać się z procesu rekrutacyjnego. Firma, która unika tematu wynagrodzeń, jest firmą, której powinni unikać kandydaci."

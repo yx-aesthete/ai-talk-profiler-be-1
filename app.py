@@ -8,10 +8,30 @@ import logging
 from typing import Dict
 import time
 from pathlib import Path
+from langfuse import Langfuse
+from langfuse.decorators import observe
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Initialize Langfuse
+langfuse = Langfuse(
+    public_key=os.getenv('LANGFUSE_PUBLIC_KEY'),
+    secret_key=os.getenv('LANGFUSE_SECRET_KEY'),
+    host=os.getenv('LANGFUSE_HOST', 'https://cloud.langfuse.com')
+)
+from langfuse import Langfuse
 
 # Podstawowa konfiguracja ścieżek
 BASE_DIR = Path(__file__).resolve().parent
 DATABASE_PATH = BASE_DIR / "korpotlumacz_database.json"
+
+langfuse = Langfuse(
+  secret_key="sk-lf-950a84d6-eb83-43af-b5d2-b5c3381918f5",
+  public_key="pk-lf-f91f8e2d-764b-4470-971f-a4e946c336af",
+  host="https://cloud.langfuse.com"
+)
 
 app = Quart(__name__)
 app = cors(app, 
@@ -154,10 +174,31 @@ async def translate():
             }), 400
 
         try:
+            # Create a trace for the translation request
+            trace = langfuse.trace(name='translation_request')
+            
             if direction == 'to_human':
-                result = await translator.translate_to_human(text, context)
+                with trace.span(name='translate_to_human') as span:
+                    result = await translator.translate_to_human(text, context)
+                    # Log the generation details
+                    span.log_llm({
+                        'input': {'text': text, 'context': context},
+                        'output': result,
+                        'model': 'gpt-4',  # Update this with your actual model
+                        'startTime': time.time(),
+                        'endTime': time.time()
+                    })
             else:
-                result = await translator.translate_to_korpo(text, context)
+                with trace.span(name='translate_to_korpo') as span:
+                    result = await translator.translate_to_korpo(text, context)
+                    # Log the generation details
+                    span.log_llm({
+                        'input': {'text': text, 'context': context},
+                        'output': result,
+                        'model': 'gpt-4',  # Update this with your actual model
+                        'startTime': time.time(),
+                        'endTime': time.time()
+                    })
 
             return jsonify({
                 'status': 'success',

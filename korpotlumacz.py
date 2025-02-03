@@ -11,6 +11,7 @@ import asyncio
 
 logging.basicConfig(level=logging.INFO,format='%(asctime)s - %(levelname)s - %(message)s')
 
+import uuid
 
 class DialogProcessor:
     @staticmethod
@@ -66,16 +67,13 @@ class KorpoTlumacz:
         self.state = TranslatorState.IDLE
         self.error_message = None
         try:
-            logging.info(f"Initializing KorpoTlumacz with model: {model_name}")
             self.client = OpenAI(api_key=api_key)
             self.model_name = model_name
             self.embed_model = SentenceTransformer('all-MiniLM-L6-v2')
             self.index = None
             self.examples: List[Dict] = []
             self.processor = DialogProcessor()
-            logging.info("KorpoTlumacz initialized successfully")
         except Exception as e:
-            logging.error(f"Error during initialization: {e}")
             self.state = TranslatorState.ERROR
             self.error_message = str(e)
             raise
@@ -83,7 +81,39 @@ class KorpoTlumacz:
     def _set_state(self, state: str, error_message: str = None):
         self.state = state
         self.error_message = error_message
+        
+    async def generate_translation_name(self, original_text: str, translation: str, context: str = "") -> str:
+        """Generuje unikalną nazwę dla tłumaczenia na podstawie treści"""
+        try:
+            prompt = f"""
+            Stwórz krótką, unikalną nazwę dla tłumaczenia. Nazwa powinna być możliwie krótka (maksymalnie kilka słów) i powinna uwzględniać treść oryginalnego tekstu, tłumaczenia i kontekstu.
+            Może być humorystyczna lub kreatywna, nawiązując do stylu "korpo-mowy" i prostego języka.
 
+            Oryginalny tekst: "{original_text}"
+            Tłumaczenie: "{translation}"
+            Kontekst: "{context}"
+
+            Nazwa tłumaczenia:
+            """
+            
+            response = await asyncio.to_thread(
+                lambda: self.client.chat.completions.create(
+                    model=self.model_name,
+                    messages=[
+                        {"role": "system", "content": "Jesteś kreatywnym asystentem, który generuje unikalne nazwy dla tłumaczeń."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.7
+                )
+            )
+            
+            name = response.choices[0].message.content.strip()
+            name = name.replace('"', '').replace('\\', '') 
+            return name
+        except Exception as e:
+            logging.error(f"Błąd podczas generowania nazwy tłumaczenia: {e}")
+            return "nazwa-nie-znaleziona"
+        
     async def load_from_directory(self, directory_path: str):
         """Wczytuje i przetwarza wszystkie pliki tekstowe z katalogu"""
         try:
@@ -193,12 +223,16 @@ class KorpoTlumacz:
 
             result = await self._translate_to_human_internal(korpo_text, context)
 
+            # Generowanie nazwy na podstawie tłumaczenia
+            translation_name = await self.generate_translation_name(korpo_text, result, context)
+
             self._set_state(TranslatorState.SUCCESS)
             return {
                 "translation": result,
                 "state": self.state,
                 "original": korpo_text,
-                "context": context
+                "context": context,
+                "name": translation_name
             }
         except Exception as e:
             self._set_state(TranslatorState.ERROR, str(e))
@@ -246,12 +280,16 @@ class KorpoTlumacz:
 
             result = await self._translate_to_korpo_internal(human_text, context)
 
+            # Generowanie nazwy na podstawie tłumaczenia
+            translation_name = await self.generate_translation_name(human_text, result, context)
+
             self._set_state(TranslatorState.SUCCESS)
             return {
                 "translation": result,
                 "state": self.state,
                 "original": human_text,
-                "context": context
+                "context": context,
+                "name": translation_name  # Zwróć wygenerowaną nazwę
             }
         except Exception as e:
             self._set_state(TranslatorState.ERROR, str(e))
