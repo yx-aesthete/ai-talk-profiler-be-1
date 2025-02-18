@@ -1,22 +1,39 @@
+# Web Framework and Extensions
 fastapi==0.109.2
 fastapi-users[sqlalchemy2]==12.1.2
 uvicorn==0.27.1
+python-multipart==0.0.6
+pydantic==2.6.1
+pydantic-settings==2.1.0
+orjson==3.9.10
+
+# Database
 sqlalchemy==2.0.27
 alembic==1.13.1
 asyncpg==0.29.0
+
+# Authentication & Security
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-pydantic-settings>=2.1.0
-quart==0.18.4
-quart-cors==0.6.0
-quart-rate-limiter==0.7.0
+
+# API Services & Integration
 openai==1.12.0
+langfuse>=2.0.0
+
+# ML & Data Processing
 numpy>=1.26.0
 sentence-transformers==2.5.1
+faiss-cpu>=1.7.4
+torch>=2.0.0
+transformers>=4.36.0
+
+# File Handling & Utils
 aiofiles==23.1.0
 pathlib==1.0.1
 python-dotenv==1.0.0
-orjson==3.9.0
+
+# Web Server & Middleware
+quart==0.18.4
+quart-cors==0.6.0
+quart-rate-limiter==0.7.0
 werkzeug==2.3.7
-langfuse>=2.0.0
