@@ -173,32 +173,34 @@ async def translate():
                 'code': 'invalid_direction'
             }), 400
 
+        start_time = time.time()
+        span = None
+        
         try:
             # Create a trace for the translation request
             trace = langfuse.trace(name='translation_request')
             
+            # Create span for timing
+            span = trace.span(
+                name=f'translate_{direction}',
+                input={'text': text, 'context': context}
+            )
+            
+            # Execute translation
             if direction == 'to_human':
-                with trace.span(name='translate_to_human') as span:
-                    result = await translator.translate_to_human(text, context)
-                    # Log the generation details
-                    span.log_llm({
-                        'input': {'text': text, 'context': context},
-                        'output': result,
-                        'model': 'gpt-4',  # Update this with your actual model
-                        'startTime': time.time(),
-                        'endTime': time.time()
-                    })
+                result = await translator.translate_to_human(text, context)
             else:
-                with trace.span(name='translate_to_korpo') as span:
-                    result = await translator.translate_to_korpo(text, context)
-                    # Log the generation details
-                    span.log_llm({
-                        'input': {'text': text, 'context': context},
-                        'output': result,
-                        'model': 'gpt-4',  # Update this with your actual model
-                        'startTime': time.time(),
-                        'endTime': time.time()
-                    })
+                result = await translator.translate_to_korpo(text, context)
+                
+            # Log success
+            end_time = time.time()
+            span.end(
+                output=result,
+                metadata={
+                    'model': 'gpt-4',
+                    'duration_ms': int((end_time - start_time) * 1000)
+                }
+            )
 
             return jsonify({
                 'status': 'success',
@@ -206,7 +208,18 @@ async def translate():
             })
 
         except Exception as e:
+            # Log error and end span with error status
+            error_time = time.time()
             logging.error(f"Translation error: {str(e)}")
+            if 'span' in locals():
+                span.end(
+                    error=str(e),
+                    metadata={
+                        'model': 'gpt-4',
+                        'duration_ms': int((error_time - start_time) * 1000)
+                    },
+                    status='error'
+                )
             return jsonify({
                 'status': 'error',
                 'message': 'Błąd podczas tłumaczenia',
@@ -215,7 +228,21 @@ async def translate():
             }), 500
 
     except Exception as e:
+        # Log server error
+        error_time = time.time()
         logging.error(f"Server error: {str(e)}")
+        
+        # End span with error if it exists
+        if 'span' in locals():
+            span.end(
+                error=str(e),
+                metadata={
+                    'error_type': 'server_error',
+                    'duration_ms': int((error_time - start_time) * 1000) if 'start_time' in locals() else 0
+                },
+                status='error'
+            )
+            
         return jsonify({
             'status': 'error',
             'message': 'Błąd serwera',
